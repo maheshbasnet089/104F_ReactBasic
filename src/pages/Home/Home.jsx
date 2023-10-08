@@ -1,20 +1,14 @@
+import Button from "../../components/Button/Button"
+import Navbar from "../../components/Navbar/Navbar"
+
 
 
 const Home = () => {
   return (
  <div>
-  <header>
-        <nav>
-            <div className="container">
-                <h1><a href="#">Digital Pathshala</a></h1>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <Navbar />
+    <Button title="Login" color="red" subTitle="hello world this is subtitle"  />
+    <Button title="Register" color="green" subTitle="hello world this is subtitle"  />
 
     <section className="hero">
         <div className="container">
